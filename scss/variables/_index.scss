@@ -1,0 +1,122 @@
+.banner-image{
+    background-image: url(https://res.cloudinary.com/da5fzpyjp/image/upload/v1676689253/flores/pexels-photo-6331085_egvusn.jpg);
+    background-size: cover; //la img cubre todo el fondo sin distorcionar
+    height: 20rem;
+}
+
+.navbar-toggler {
+    z-index: 1100;
+  }
+  
+
+
+/* barra-buscadora */
+
+
+#ctn-icon-search i:hover {
+    color: #3f3fee;
+}  
+
+#ctn-bars-search input {
+    //position: fixed;
+   // top: 144px;
+   // left: 93px;
+   // width: 1000px;
+    //margin: auto;  /*para centrar*/
+    padding: 10px;
+    font-size: 18px;
+    outline: 0;    /*elimina linea cuando se hace foco*/
+    border-radius: 5px;
+    border-color: cornsilk;
+}
+
+
+#box-search li a {
+    display: block;
+    color: #cad2d7;
+    padding: 12px 20px;
+}
+
+#box-search li{
+    list-style-type: none;    
+}
+
+#box-search li a:hover {
+    background-color: #e6e7e7;
+}
+
+/*icono lupita*/
+.fa-search{
+    color: grey;
+    margin-right: 10px;
+}
+
+
+
+
+//modificaciones con js
+#box-search{
+    position: fixed;
+    top: 198px;
+    left: 50%;
+    transform: translateX(-111px);
+    width: 224px;
+    z-index: 8;
+    background-color: whitesmoke;
+    padding-left: 5px;
+    border-radius: 5px;
+    display: none; /*solo se mostrara con la funcion JS*/ 
+}
+
+#ctn-bars-search2 {
+    display: none;
+  }
+
+#box-search2 li a {
+    display: block;
+    color: #cad2d7;
+    padding: 12px 20px;
+}
+
+#box-search2 li{
+    list-style-type: none;    
+}
+
+#box-search2 li a:hover {
+    background-color: #e6e7e7;
+}
+
+//modificaciones con js
+#box-search2{
+    position: fixed;
+    top: 66px;
+    left: 50%;
+    transform: translateX(-111px);
+    width: 224px;
+    z-index: 8;
+    background-color: whitesmoke;
+    padding-left: 5px;
+    border-radius: 5px;
+    display: none; /*solo se mostrara con la funcion JS*/ 
+}
+
+
+
+
+#ctn-icon-search2 i:hover {
+    color: #3f3fee;
+}  
+
+#ctn-bars-search2 input {
+    //position: fixed;
+   // top: 144px;
+   // left: 93px;
+   // width: 1000px;
+    //margin: auto;  /*para centrar*/
+    padding: 10px;
+    font-size: 18px;
+    outline: 0;    /*elimina linea cuando se hace foco*/
+    border-radius: 5px;
+    border-color: cornsilk;
+}
+
